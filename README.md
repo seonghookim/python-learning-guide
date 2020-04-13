@@ -21,7 +21,12 @@ browser.find_element_by_id('kw').send_keys("韩国美女写真")
 browser.find_element_by_id("su").click()
 ```
 * Selenium之选择元素
-
+  * 从根目录/开始
+    类似Linux的文件查看，/代表根目录，一级一级的查找，直接子节点，相当于css_selector中的>号
+    ```
+    /html/body/div/p
+    ```
+    
 
 ### 使用 BeautifulSoup
 * [Beautiful Soup 4.4.0 文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/) 
