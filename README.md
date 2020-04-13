@@ -20,6 +20,8 @@ browser.find_element_by_id('kw').send_keys("韩国美女写真")
 # 模拟点击“百度一下”按钮
 browser.find_element_by_id("su").click()
 ```
+* Selenium之选择元素
+
 
 ### 使用 BeautifulSoup
 * [Beautiful Soup 4.4.0 文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/) 
